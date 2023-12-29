@@ -6,7 +6,7 @@ function Header() {
     <div>
        <Navbar  className="bg-body-tertiary ">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="">
           <i class="fa-solid fa-cake-candles"></i>{' '}
             CAKE WORLD
           </Navbar.Brand>
