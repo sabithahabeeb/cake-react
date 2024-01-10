@@ -73,7 +73,7 @@ function Footer() {
       </div>
      
     </div>
-   <div> <p>Copyright © 2023 Media Player. Built with Docusaurus.</p></div>
+   <div> <p>Copyright © 2023 Cake World. Built with Docusaurus.</p></div>
 
 
   </div>

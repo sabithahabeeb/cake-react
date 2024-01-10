@@ -12,9 +12,9 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path='/' element={<Dashboard/>}/>
+        <Route path='/' element={<Dashboard />} />
       </Routes>
-<Footer/>
+      <Footer />
     </>
 
   );
