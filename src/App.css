@@ -1,4 +1,8 @@
 .marq{
     width: 500px;
-    padding: 5px;
+    padding: 20px;
+    transition: transform 500ms;
+}
+.marq:hover{
+    transform: scale(1.06);
 }

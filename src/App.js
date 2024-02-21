@@ -6,6 +6,7 @@ import Dashboard from './Pages/Dashboard'
 import Footer from './Components/Footer';
 import Cards from './Components/Cards';
 import Marquee from './Components/Marquee';
+import Slice from './Components/Slice';
 function App() {
 
   return (
@@ -13,6 +14,7 @@ function App() {
     <>
       <Header />
       <Marquee/>
+      <Slice/>
 {/* <Cards/> */}
       <Routes>
         {/* <Route path='/' element={<Dashboard />} /> */}
