@@ -20,7 +20,8 @@ function Header() {
           
         </Container>
         <i class="fa-regular fa-heart"></i>
-        <h3 className='p-3 ' style={{fontSize:'20px',color:'black'}}>LOGOUT</h3>
+        <i class="fa-solid fa-cart-plus ps-3"></i>
+        <h3 className='p-3 ' style={{fontSize:'20px',color:'white'}}>LOGin</h3>
       </Navbar>
     </div>
   )

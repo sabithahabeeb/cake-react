@@ -6,3 +6,27 @@
 .marq:hover{
     transform: scale(1.06);
 }
+.ch{
+    font-family: "Satisfy", cursive;
+    padding-left: 15rem;
+    color: lightpink;
+}
+.hovered{
+   
+    transition: transform 0.3s ease;
+}
+.hovered:hover{
+    transform: scale(1.1);
+}
+.blog{
+   
+    transition: transform 0.3s ease;
+}
+.blog:hover{
+    transform: scale(1.2);
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}

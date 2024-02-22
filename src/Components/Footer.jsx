@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <div className='d-flex justify-content-center align-items-center flex-column pt-5 mt-5 ' style={{ width: '100%', height: '300px' }}>
+    <div className='d-flex justify-content-center align-items-center flex-column  mt-5 ' style={{ width: '100%', height: '300px',paddingTop:'400px' }}>
       <div>
         <h3 className='p-2'><i class="fa-solid fa-cake-candles"></i>{' '}CAKE WORLD</h3>
         <h4 className='mb-5' style={{ color: 'lightpink', fontFamily:'cursive' }}>world of chocolate</h4>
