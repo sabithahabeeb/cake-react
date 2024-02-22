@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 function Slice() {
   const [hoveredIndex,setHoveredIndex] = useState(null)
   return (
-<div style={{paddingTop:'150px'}}>
+<div style={{paddingTop:'100px'}}>
       <div className='pt-5 pb-5 text-center'>
           <h1>SLICE OF HEAVEN</h1>
           <h3 className='ch'>choclate artista</h3>

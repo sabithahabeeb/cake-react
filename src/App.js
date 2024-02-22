@@ -9,19 +9,19 @@ import Marquee from './Components/Marquee';
 import Slice from './Components/Slice';
 import Blog from './Components/Blog';
 import Team from './Components/Team';
+import Chocolate from './Pages/Chocolate';
 function App() {
 
   return (
 
     <>
       <Header />
-      <Marquee/>
-      <Slice/>
-      <Blog/>
-      <Team/>
+     
+     
 {/* <Cards/> */}
       <Routes>
-        {/* <Route path='/' element={<Dashboard />} /> */}
+        <Route path='/chocolate' element={<Chocolate/>}/>
+        <Route path='/' element={<Dashboard />} />
       </Routes>
       <Footer />
     </>
