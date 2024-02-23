@@ -22,7 +22,8 @@ function Wishlist() {
         </Card.Text>
        <div className='d-flex justify-content-center'>
         
-          <Button variant="light">ADD TO CART<i style={{color:'red'}} class="fa-solid fa-cart-shopping"></i></Button>
+          <Button variant="light">ADD TO CART<i style={{color:'orange'}} class="fa-solid fa-cart-shopping p-2"></i></Button>
+          <button className='btn text-danger'><i class="fa-solid fa-trash"></i></button>
          
        </div>
       </Card.Body>
@@ -41,8 +42,9 @@ function Wishlist() {
         </Card.Text>
        <div className='d-flex justify-content-center'>
         
-          <Button variant="light">ADD TO CART<i style={{color:'red'}} class="fa-solid fa-cart-shopping"></i></Button>
-         
+          <Button variant="light">ADD TO CART<i style={{color:'orange'}} class="fa-solid fa-cart-shopping p-2"></i></Button>
+          <button className='btn text-danger'><i class="fa-solid fa-trash"></i></button>
+
        </div>
       </Card.Body>
     </Card>
@@ -60,8 +62,9 @@ function Wishlist() {
         </Card.Text>
        <div className='d-flex justify-content-center'>
         
-          <Button variant="light">ADD TO CART<i style={{color:'red'}} class="fa-solid fa-cart-shopping"></i></Button>
-         
+          <Button variant="light">ADD TO CART<i style={{color:'orange'}} class="fa-solid fa-cart-shopping p-2"></i></Button>
+          <button className='btn text-danger'><i class="fa-solid fa-trash"></i></button>
+
        </div>
       </Card.Body>
     </Card>
@@ -79,8 +82,9 @@ function Wishlist() {
         </Card.Text>
        <div className='d-flex justify-content-center'>
         
-          <Button variant="light">ADD TO CART<i style={{color:'red'}} class="fa-solid fa-cart-shopping"></i></Button>
-         
+          <Button variant="light">ADD TO CART<i style={{color:'orange'}} class="fa-solid fa-cart-shopping p-2"></i></Button>
+          <button className='btn text-danger'><i class="fa-solid fa-trash"></i></button>
+
        </div>
       </Card.Body>
     </Card>
