@@ -16,14 +16,14 @@ function Header() {
           </Navbar.Brand>
 
 
-          <Link to={'/chocolate'} style={{ textDecoration: 'none', color: 'orange', fontSize: '20px' }}>CAKES</Link>
+          <Link to={'/chocolate'} style={{ textDecoration: 'none', color: 'orange', fontSize: '40px',fontFamily: "Satisfy" }}>CAKES</Link>
 
 
         </Container>
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-solid fa-cart-plus ps-3"></i>
+       <Link to={'/wishlist'} style={{color:'red'}}> <i class="fa-regular fa-heart fa-2x"></i></Link>
+        <Link to={'/cart'} style={{color:'orange'}}><i class="fa-solid fa-cart-plus ps-3 fa-2x"></i></Link>
 
-        <h3 className='p-3 ' style={{ fontSize: '20px', color: 'white' }}>LOGin</h3>
+        <h3 className='p-3 ' style={{ fontSize: '20px', color: 'white' }}>LOGOUT</h3>
       </Navbar>
     </div>
   )

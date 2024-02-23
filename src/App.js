@@ -10,18 +10,24 @@ import Slice from './Components/Slice';
 import Blog from './Components/Blog';
 import Team from './Components/Team';
 import Chocolate from './Pages/Chocolate';
+import Wishlist from './Pages/Wishlist';
+import Cart from './Pages/Cart';
 function App() {
 
   return (
 
     <>
       <Header />
-     
+    
      
 {/* <Cards/> */}
       <Routes>
         <Route path='/chocolate' element={<Chocolate/>}/>
         <Route path='/' element={<Dashboard />} />
+        <Route path='/wishlist' element={<Wishlist/>} />
+        <Route path='/cart' element={ <Cart/>} />
+
+
       </Routes>
       <Footer />
     </>

@@ -11,7 +11,10 @@ function Cards() {
       <Card.Body>
         <Card.Title>Black Forest</Card.Title>
         <Card.Text>
-      A type of large chocolate cake, made with layers of chocolate cake, cherries, and cream, originally from the Black Forest area of Germany....
+      A type of large chocolate cake, made with layers....
+        </Card.Text>
+        <Card.Text>
+     $125.00
         </Card.Text>
        <div className='d-flex justify-content-between'>
           <Button variant="light"><i style={{color:'red'}} class="fa-solid fa-cart-shopping"></i></Button>
@@ -19,6 +22,8 @@ function Cards() {
        </div>
       </Card.Body>
     </Card>
+
+    
     </div>
   )
 }
